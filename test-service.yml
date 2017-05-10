@@ -5,7 +5,13 @@ spring:
   profiles: dev
 greeting: "test dev"
 
+devconfig:
+  text: "devconfig text"
+
 ---
 spring:
   profiles: live
 greeting: "test live"
+
+devconfig:
+  text: "devconfig live"
