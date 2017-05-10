@@ -1,4 +1,7 @@
-greeting: "test"
+greeting: "test234"
+
+dev:
+  greeting: "test github"
 
 ---
 
@@ -6,7 +9,7 @@ spring:
   profiles: dev
 
 dev:
-  greeting: "test dev" 
+  greeting: "test dev"
 
 ---
 
