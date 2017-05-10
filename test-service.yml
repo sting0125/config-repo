@@ -4,10 +4,14 @@ greeting: "test"
 
 spring:
   profiles: dev
-greeting: "test dev"
+
+dev:
+  greeting: "test dev" 
 
 ---
 
 spring:
   profiles: live
-greeting: "test live"
+  
+dev:
+  greeting: "test live"
