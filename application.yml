@@ -10,6 +10,7 @@ foo: baz
 
 ---
 spring:
+  test: aaaa
   profiles: cloud
   cloud:
     config:
