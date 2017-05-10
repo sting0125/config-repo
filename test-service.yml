@@ -1,0 +1,11 @@
+greeting: "test"
+
+---
+spring:
+  profiles: dev
+greeting: "test dev"
+
+---
+spring:
+  profiles: live
+greeting: "test live"
